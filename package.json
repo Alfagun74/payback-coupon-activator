@@ -1,0 +1,17 @@
+{
+  "name": "payback-coupon-activator",
+  "version": "1.0.0",
+  "description": "activates payback coupons automatically",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "author": "Alfagun74",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "node-cron": "^3.0.2",
+    "playwright": "^1.28.0"
+  }
+}
