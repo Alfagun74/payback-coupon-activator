@@ -1,5 +1,5 @@
 FROM zenika/alpine-chrome:with-playwright
-USER ROOT
+USER root
 RUN mkdir /app
 WORKDIR /app
 COPY ./ ./
