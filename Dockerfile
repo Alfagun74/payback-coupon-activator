@@ -38,4 +38,5 @@ USER node
 
 COPY --chown=node  ./ ./
 RUN npm i
+CMD [ "npx", "playwright", "install" ]
 CMD [ "npm", "start" ]
