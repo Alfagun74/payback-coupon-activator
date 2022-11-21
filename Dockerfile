@@ -38,5 +38,5 @@ USER node
 
 COPY --chown=node  ./ ./
 RUN npm i
-CMD [ "npx", "playwright", "install" ]
+RUN npx playwright install
 CMD [ "npm", "start" ]
