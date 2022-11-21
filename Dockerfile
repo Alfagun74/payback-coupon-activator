@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/playwright
+FROM zenika/alpine-chrome:with-playwright
 RUN mkdir /app
 WORKDIR /app
 COPY ./ ./
