@@ -38,5 +38,6 @@ USER node
 
 COPY --chown=node  ./ ./
 RUN npm i
+RUN npx playwright install-deps
 RUN npx playwright install
 CMD [ "npm", "start" ]
