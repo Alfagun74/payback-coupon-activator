@@ -1,8 +1,6 @@
-FROM zenika/alpine-chrome:100-with-playwright
-USER root
+FROM mcr.microsoft.com/playwright
 RUN mkdir /app
 WORKDIR /app
 COPY ./ ./
 RUN npm i
-RUN npx playwright install
 CMD [ "npm", "start" ]
