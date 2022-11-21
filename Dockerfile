@@ -1,4 +1,5 @@
-FROM zenika/alpine-chrome:with-playwright
+FROM gcr.io/zenika/alpine-chrome:with-playwright
+USER ROOT
 RUN mkdir /app
 WORKDIR /app
 COPY ./ ./
