@@ -1,3 +1,5 @@
+> Deprecated: Unfortunately Payback now uses an excessive amount of captchas so this probably wont work anymore
+
 # payback-coupon-activator
 Runs in docker and activates your payback coupons every X hours.
 
